@@ -7,6 +7,7 @@ import Project from './Screens/Project';
 import ServiceGallery from './Screens/ServiceGallery';
 import { Exterior, resized } from './data/Image';
 import Studio from './Screens/Studio';
+import ScrollReveal from './components/ScrollReveal';
 
 const serviceGalleries = {
 	interior: { title: 'Interior Design', images: resized },
@@ -40,9 +41,15 @@ export default function App() {
 		<>
 		<Home />
       	<Navbar />
-      	<Project />
-      	<Expertise onSelectService={setActiveService} />
-	  	<Studio /> 
+      	<ScrollReveal>
+			<Project />
+		</ScrollReveal>
+      	<ScrollReveal>
+			<Expertise onSelectService={setActiveService} />
+		</ScrollReveal>
+	  	<ScrollReveal>
+			<Studio />
+		</ScrollReveal>
 		{/* <Contact />  */}
 		</>
 			
