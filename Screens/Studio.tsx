@@ -10,9 +10,9 @@ const Studio = () => {
                 <h1 className='text-center font-["Oswald"] lg:text-5xl text-4xl '>Architecture, seen differently.</h1>
                 <p className='text-center'>We create architectural imagery that brings ideas to life through light, material and atmosphere.</p>
             </div>    
-            <div className='mx-auto mt-8 flex w-full flex-col lg:mt-0 lg:min-h-[70vh] lg:w-[70%] lg:flex-row'>
-                 <img src={NiiFita} alt="Portrait of the studio founder" className='block aspect-[4/5] w-full object-cover lg:aspect-auto lg:w-[45%]'/>
-                <div className='bg-[#181A19] lg:w-[55%]'>
+            <div className='mx-auto mt-8 m-auto flex w-full flex-col lg:mt-0 lg:min-h-[70vh] lg:w-[70%] lg:flex-row'>
+                 <img src={NiiFita} alt="Portrait of the studio founder" className='block aspect-[4/5] w-full object-cover lg:aspect-[2] lg:w-[35%]'/>
+                <div className='bg-[#181A19] lg:w-[65%]'>
                         <div className='flex flex-col items-center lg:mt-[12ch] space-y-5'>
                             <p className='text-[#FDFCFD] text-center uppercase mt-4 '>
                                 Philosophy
