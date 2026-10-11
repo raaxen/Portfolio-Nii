@@ -3,8 +3,8 @@ const Contact = () => {
   return (
     <>
     <section id="contact" className="lg:w-[100%] lg:m-auto bg-[#151715] lg:flex lg:flex-row flex flex-col-reverse h-[60%] overflow-hidden">
-        <div className="lg:w-[50%] p-8">
-            <img src={Velora} className="lg:w-[10%] w-[40%] h-[50%] lg:h-[11%] m-auto"/>
+        <div className="lg:w-[50%] p-4">
+            <img src={Velora} className="lg:w-[10%] w-[40%] mt-115 h-[50%] lg:h-[11%] m-auto"/>
 
                  <form
                 action="mailto:nyfita.razakasoa@gmail.com"
@@ -12,7 +12,9 @@ const Contact = () => {
                 encType="text/plain"
                 className="w-full max-w-xl  m-auto bg-[#151715] p-7 backdrop-blur-sm"
             >
-                <p className="mb-2 text-xs text-center font-semibold uppercase tracking-[0.2em] text-[#FDFCFD]/60">
+                <div className="space-y-5 ">
+
+                <p className="mb-2 text-xs  text-center font-semibold uppercase tracking-[0.2em]  text-[#FDFCFD]/60">
                     Start a project
                 </p>
                 <h2 className="mb-2 text-3xl font-semibold text-center text-white font-['Oswald'] uppercase">
@@ -21,8 +23,9 @@ const Contact = () => {
                 <p className="mb-7 text-m text-center leading-6 text-[#FDFCFD]/60">
                     Tell me a little about your idea and I&apos;ll get back to you.
                 </p>
+                </div>
 
-                <div className="grid grid-cols-2 gap-4">
+                <div className="grid grid-cols-2 gap-4 mt-12">
                     <label className="flex flex-col gap-2 text-sm text-white/80 uppercase">
                         Name
                         <input
