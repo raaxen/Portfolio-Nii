@@ -12,13 +12,13 @@ const Contact = () => {
                 encType="text/plain"
                 className="w-full max-w-xl  m-auto bg-[#151715] p-7 backdrop-blur-sm"
             >
-                <p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-[#FDFCFD]/60">
+                <p className="mb-2 text-xs text-center font-semibold uppercase tracking-[0.2em] text-[#FDFCFD]/60">
                     Start a project
                 </p>
-                <h2 className="mb-2 text-3xl font-semibold text-white font-['Oswald'] uppercase">
+                <h2 className="mb-2 text-3xl font-semibold text-center text-white font-['Oswald'] uppercase">
                     Let&apos;s work <span className="text-(--portfolio-level) font-['Oswald']">together.</span>
                 </h2>
-                <p className="mb-7 text-sm leading-6 text-[#FDFCFD]/60">
+                <p className="mb-7 text-m text-center leading-6 text-[#FDFCFD]/60">
                     Tell me a little about your idea and I&apos;ll get back to you.
                 </p>
 

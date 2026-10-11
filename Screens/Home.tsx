@@ -22,7 +22,7 @@ export default function Home() {
 <div className="absolute inset-0 bg-gradient-to-t from-black/100 via-black/40 to-transparent" />
       <section id='home' className='overflow-hidden flex flex-col justify-center h-screen w-screen object-contain bg-cover bg-center' style={{ backgroundImage: `url(${Bg1?.src})` }}>
         <div className='hero-enter absolute lg:space-y-5 lg:mt-[15ch] lg:w-[50%]'>
-          <p className=' hero-enter text-[1.1rem] lg:ml-9 ml-5 lg:mt-[55ch] mt-[48ch] font-["Oswald"] text-white' style={{animationDelay:'200ms'}}>
+          <p className=' hero-enter text-[1.1rem]  lg:ml-9 ml-5 lg:mt-[55ch] mt-[45ch] font-["Oswald"] text-white' style={{animationDelay:'200ms'}}>
                 .Velora
           </p>
           <h1 className='hero-enter lg:text-7xl text-6xl ml-5 font-["Oswald"] lg:ml-8 text-[#FDFCFD]' style={{animationDelay:'250ms'}}>
@@ -33,7 +33,7 @@ export default function Home() {
           </p>
         </div>
         <a href="#contact" className='lg:hidden flex bg-[#FDFCFD] absolute justify-center mt-[102ch] mx-28 h-14 w-[48%] font-["Oswald"] text-[#151715] '>
-          <button className='m-auto font-semibold'>
+          <button className='m-auto font-semibold text-[#151715]'>
             Start a Project 
           </button>
         </a>
