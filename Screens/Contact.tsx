@@ -1,4 +1,3 @@
-import { IconMail, IconBrandGoogleMaps, IconBrandLinkedin, IconPhoneCall, IconCheckFilled } from "@tabler/icons-react"
 import Velora from "../assets/images/Portfolio/Velora/Velora_white.png"
 const Contact = () => {
   return (
@@ -32,7 +31,7 @@ const Contact = () => {
                             placeholder="Your name"
                             autoComplete="name"
                             required
-                            className="h-12 min-w-0 rounded-lg border border-white/10 bg-black/35 px-4 text-white outline-none transition placeholder:text-white/35 focus:border-(--portfolio-level) focus:ring-2 focus:ring-(--portfolio-level)/25"
+                            className="h-12 min-w-0 rounded-0 border border-white/10 bg-black/35 px-4 text-white outline-none transition placeholder:text-white/35 focus:border-(--portfolio-level) focus:ring-2 focus:ring-(--portfolio-level)/25"
                         />
                     </label>
                     <label className="flex flex-col gap-2 text-sm text-white/80 uppercase">
@@ -43,7 +42,7 @@ const Contact = () => {
                             placeholder="you@example.com"
                             autoComplete="email"
                             required
-                            className="h-12 min-w-0 rounded-lg border border-white/10 bg-black/35 px-4 text-white outline-none transition placeholder:text-white/35 focus:border-(--portfolio-level) focus:ring-2 focus:ring-(--portfolio-level)/25"
+                            className="h-12 min-w-0 rounded-0 border border-white/10 bg-black/35 px-4 text-white outline-none transition placeholder:text-white/35 focus:border-(--portfolio-level) focus:ring-2 focus:ring-(--portfolio-level)/25"
                         />
                     </label>
                 </div>
@@ -54,7 +53,7 @@ const Contact = () => {
                         name="service"
                         defaultValue=""
                         required
-                        className="h-12 w-full rounded-lg border border-white/10 bg-[#151715] px-4 text-white outline-none transition focus:border-(--portfolio-level) focus:ring-2 focus:rin"
+                        className="h-12 w-full rounded-0 border border-white/10 bg-[#151715] px-4 text-white outline-none transition focus:border-(--portfolio-level) focus:ring-2 focus:rin"
                     >
                         <option value="" disabled>Select a service</option>
                         <option value="Graphic Designing">Autocad</option>
@@ -71,13 +70,13 @@ const Contact = () => {
                         placeholder="Tell me about your project..."
                         required
                         rows={4}
-                        className="w-full resize-y rounded-lg border border-white/10 bg-black/35 px-4 py-3 text-white outline-none transition placeholder:text-white/35 focus:border-(--portfolio-level) focus:ring-2 focus:ring-(--portfolio-level)/25"
+                        className="w-full resize-y rounded-0 border border-white/10 bg-black/35 px-4 py-3 text-white outline-none transition placeholder:text-white/35 focus:border-(--portfolio-level) focus:ring-2 focus:ring-(--portfolio-level)/25"
                     />
                 </label>
 
                 <button
                     type="submit"
-                    className="mt-6 h-12 w-full rounded-lg  font-semibold text-white transition-colors hover:text-[#151715] hover:bg-[#FDFCFD] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                    className="mt-6 h-12 w-full rounded-0  font-semibold text-white transition-colors hover:text-[#151715] hover:bg-[#FDFCFD] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                 >
                     Send Message
                 </button>
@@ -85,12 +84,12 @@ const Contact = () => {
         </div>
         
         <div className="flex flex-col lg:flex-row bg-[#151715]  align-center text-center lg:w-[50%]">
-            <div className="m-auto py-8 lg:w-[50%] lg:rounded-[80%_50%_500px_150px_]  lg:mt-40 h-[22ch] w-[100%] lg:h-[40ch] bg-[#FDFCFD]  ">
-            <h1 className=" text-[#151715] text-center lg:text-5xl text-6xl font-['Oswald'] lg:mt-16"> 
+            <div className="m-auto inset-0 py-2 lg:w-[70%] lg:rounded-40%_15%_300px_150px] h-[20ch] w-[100%] lg:h-[70ch] bg-[#FDFCFD]  ">
+            <h1 className=" m-auto text-[#151715] mt-10 text-center lg:text-5xl text-5xl font-['Oswald'] lg:mt-[10ch]"> 
                 Contact
             </h1>
             <div className="mx-auto mt-5 h-1 w-20 bg-[#151715]" />
-            <p className="text-[#151715]  font-semibold text-center mt-6 ">
+            <p className="text-[#151715]  font-semibold text-center mt-2 ">
                 Feel free to text me , we'll build your Dream together !
             </p>
             </div>

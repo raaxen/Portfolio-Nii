@@ -5,7 +5,7 @@ const Studio = () => {
     <>
         <section id='studio' className='flex min-h-screen space-y-8 w-full flex-col '>
             <div className='space-y-5'>
-                <p className='text-center uppercase lg:mt-8'>studio</p>
+                <p className='text-center uppercase mt-9 lg:mt-8'>studio</p>
                 <h1 className='text-center font-["Oswald"] lg:text-5xl text-4xl '>Architecture, seen differently.</h1>
                 <p className='text-center'>We create architectural imagery that brings ideas to life through light, material and atmosphere.</p>
             </div>    
