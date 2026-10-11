@@ -35,7 +35,7 @@ export default function Navbar() {
           {Navlinks.map(({ name, href }) => (
             <li key={href}>
               <a
-                className={`text-lg font-medium transition-colors  text-[#181A19]`}
+                className={`text-lg font-medium transition-colors  text-[#151715]`}
                 href={href}
               >
                 {name}
@@ -43,14 +43,14 @@ export default function Navbar() {
             </li>
           ))}
         </ul>
-        <a href="#project" className='bg-[#181A19] hidden lg:flex w-[10%] h-12  text-[#FDFCFD] rounded-sm'>
+        <a href="#contact" className='bg-[#151715] hidden lg:flex w-[10%] h-12  text-[#FDFCFD] rounded-sm'>
         <button className='m-auto '>
           Start a Project
         </button>
         </a>
         <button
           type="button"
-          className="flex size-10 flex-col items-center justify-center gap-1.5 text-[#181A19] lg:hidden"
+          className="flex size-10 flex-col items-center justify-center gap-1.5 text-[#151715] lg:hidden"
           aria-label={menuOpen ? 'Fermer le menu' : 'Ouvrir le menu'}
           aria-expanded={menuOpen}
           aria-controls="mobile-navigation"
@@ -68,7 +68,7 @@ export default function Navbar() {
           {Navlinks.map(({ name, href }) => (
             <li key={href}>
               <a
-                className="block text-lg font-medium text-[#181A19] transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                className="block text-lg font-medium text-[#151715] transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                 href={href}
                 onClick={() => setMenuOpen(false)}
               >

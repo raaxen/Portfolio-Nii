@@ -9,12 +9,12 @@ type ServiceGalleryProps = {
 
 export default function ServiceGallery({ title, images, onBack }: ServiceGalleryProps) {
   return (
-    <main className=" bg-[#FDFCFD] px-5 pb-16 pt-8 text-[#181A19] lg:px-10 lg:pt-12 xl:px-16">
+    <main className=" bg-[#FDFCFD] px-5 pb-16 pt-8 text-[#151715] lg:px-10 lg:pt-12 xl:px-16">
       <div className="mx-auto max-w-[1800px]">
         <button
           type="button"
           onClick={onBack}
-          className="mb-12 inline-flex items-center gap-2 text-sm uppercase tracking-[0.15em] transition-opacity hover:opacity-60 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#181A19]"
+          className="mb-12 inline-flex items-center gap-2 text-sm uppercase tracking-[0.15em] transition-opacity hover:opacity-60 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#151715]"
         >
           <IconArrowLeft size={18} stroke={1.5} aria-hidden="true" />
           Back to expertise

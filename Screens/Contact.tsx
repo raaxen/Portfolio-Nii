@@ -1,15 +1,17 @@
 import { IconMail, IconBrandGoogleMaps, IconBrandLinkedin, IconPhoneCall, IconCheckFilled } from "@tabler/icons-react"
-
+import Velora from "../assets/images/Portfolio/Velora/Velora_white.png"
 const Contact = () => {
   return (
     <>
-    <section id="Contact" className="lg:w-[80%] lg:m-auto bg-[#181A19] lg:flex lg:flex-row flex flex-col-reverse h-[60%] overflow-hidden">
+    <section id="contact" className="lg:w-[100%] lg:m-auto bg-[#151715] lg:flex lg:flex-row flex flex-col-reverse h-[60%] overflow-hidden">
         <div className="lg:w-[50%] p-8">
+            <img src={Velora} className="lg:w-[10%] w-[40%] h-[50%] lg:h-[11%] m-auto"/>
+
                  <form
                 action="mailto:nyfita.razakasoa@gmail.com"
                 method="post"
                 encType="text/plain"
-                className="w-full max-w-xl  m-auto bg-[#181A19] p-7 backdrop-blur-sm"
+                className="w-full max-w-xl  m-auto bg-[#151715] p-7 backdrop-blur-sm"
             >
                 <p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-[#FDFCFD]/60">
                     Start a project
@@ -52,7 +54,7 @@ const Contact = () => {
                         name="service"
                         defaultValue=""
                         required
-                        className="h-12 w-full rounded-lg border border-white/10 bg-[#181A19] px-4 text-white outline-none transition focus:border-(--portfolio-level) focus:ring-2 focus:rin"
+                        className="h-12 w-full rounded-lg border border-white/10 bg-[#151715] px-4 text-white outline-none transition focus:border-(--portfolio-level) focus:ring-2 focus:rin"
                     >
                         <option value="" disabled>Select a service</option>
                         <option value="Graphic Designing">Autocad</option>
@@ -75,20 +77,20 @@ const Contact = () => {
 
                 <button
                     type="submit"
-                    className="mt-6 h-12 w-full rounded-lg  font-semibold text-white transition-colors hover:text-[#181A19] hover:bg-[#FDFCFD] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                    className="mt-6 h-12 w-full rounded-lg  font-semibold text-white transition-colors hover:text-[#151715] hover:bg-[#FDFCFD] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                 >
                     Send Message
                 </button>
             </form>
         </div>
         
-        <div className="flex flex-col lg:flex-row bg-[#181A19]  align-center text-center lg:w-[50%]">
-            <div className="m-auto py-8 lg:w-[67%] lg:rounded-[80%_50%_500px_150px_] rounded-[80%_80%_500px_90px_]  mt-14 lg:mt-40 h-[38ch] w-[92%] lg:h-[40ch] bg-[#FDFCFD] shadow-sm border border-[#181A19]">
-            <h1 className=" text-[#181A19] text-center text-5xl font-['Oswald'] lg:mt-16 mt-12"> 
+        <div className="flex flex-col lg:flex-row bg-[#151715]  align-center text-center lg:w-[50%]">
+            <div className="m-auto py-8 lg:w-[50%] lg:rounded-[80%_50%_500px_150px_]  lg:mt-40 h-[22ch] w-[100%] lg:h-[40ch] bg-[#FDFCFD]  ">
+            <h1 className=" text-[#151715] text-center lg:text-5xl text-6xl font-['Oswald'] lg:mt-16"> 
                 Contact
             </h1>
-            <div className="mx-auto mt-5 h-1 w-20 bg-[#181A19]" />
-            <p className="text-[#181A19] text-center mt-4 ">
+            <div className="mx-auto mt-5 h-1 w-20 bg-[#151715]" />
+            <p className="text-[#151715]  font-semibold text-center mt-6 ">
                 Feel free to text me , we'll build your Dream together !
             </p>
             </div>

@@ -1,4 +1,3 @@
-import React from 'react'
 import NiiFita from "../assets/images/Portfolio/Velora/Founder_side.png"
 
 const Studio = () => {
@@ -12,7 +11,7 @@ const Studio = () => {
             </div>    
             <div className='mx-auto m-auto flex w-full flex-col lg:mt-0 lg:min-h-[70vh] lg:w-[70%] lg:flex-row'>
                  <img src={NiiFita} alt="Portrait of the studio founder" className='block aspect-[4/5] w-full object-cover lg:aspect-[2] lg:w-[35%]'/>
-                <div className='bg-[#181A19]  pb-11 lg:w-[65%]'>
+                <div className='bg-[#151715]  pb-11 lg:w-[65%]'>
                         <div className='flex flex-col items-center lg:mt-[12ch] space-y-5'>
                             <p className='text-[#FDFCFD] text-center uppercase mt-4 '>
                                 Philosophy

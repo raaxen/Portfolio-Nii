@@ -48,11 +48,11 @@ export default function Expertise({ onSelectService }: ExpertiseProps) {
       <div className="relative isolate mx-auto max-w-[1800px] pt-10">
         <div
           aria-hidden="true"
-          className="pointer-events-none absolute left-[-2rem] top-1/2 -z-10 h-3/4 w-24 -translate-y-1/2 rounded-full bg-[#181A19]/20 blur-3xl lg:left-[-3rem] lg:w-40"
+          className="pointer-events-none absolute left-[-2rem] top-1/2 -z-10 h-3/4 w-24 -translate-y-1/2 rounded-full bg-[#151715]/20 blur-3xl lg:left-[-3rem] lg:w-40"
         />
         <div
           aria-hidden="true"
-          className="pointer-events-none absolute right-[-2rem] top-1/2 -z-10 h-3/4 w-24 -translate-y-1/2 rounded-full bg-[#181A19]/20 blur-3xl lg:right-[-3rem] lg:w-40"
+          className="pointer-events-none absolute right-[-2rem] top-1/2 -z-10 h-3/4 w-24 -translate-y-1/2 rounded-full bg-[#151715]/20 blur-3xl lg:right-[-3rem] lg:w-40"
         />
         <div className="grid grid-cols-1 gap-5 lg:grid-cols-3">
           {services.map((service, index) => (
@@ -60,7 +60,7 @@ export default function Expertise({ onSelectService }: ExpertiseProps) {
               key={service.id}
               type="button"
               onClick={() => onSelectService(service.id)}
-              className="group flex min-h-[280px] flex-col items-start justify-between bg-[#181A19] p-6 text-left text-[#FDFCFD] transition-colors hover:bg-[#252826] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#181A19] lg:min-h-[340px] lg:p-8"
+              className="group flex min-h-[280px] flex-col items-start justify-between bg-[#151715] p-6 text-left text-[#FDFCFD] transition-colors hover:bg-[#252826] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#151715] lg:min-h-[340px] lg:p-8"
             >
               <span className="text-xs tracking-[0.3em] text-white/60">
                 0{index + 1}

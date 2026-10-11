@@ -40,7 +40,7 @@ export default function Project() {
           Selected works — 2026
         </p>
 
-        <h3 className="text-3xl font-light uppercase tracking-wide lg:text-5xl text-[#181A19] font-['Oswald']">
+        <h3 className="text-3xl font-light uppercase tracking-wide lg:text-5xl text-[#151715] font-['Oswald']">
           Our Projects
         </h3>
       </div>
@@ -59,7 +59,7 @@ export default function Project() {
         return (
           <article
             key={`${project.title}-${index}`}
-            className="group grid grid-cols-1 lg:grid-cols-2 bg-[#181A19] text-[#FDFCFD]  "
+            className="group grid grid-cols-1 lg:grid-cols-2 bg-[#151715] text-[#FDFCFD]  "
           >
             {/* Image */}
             <div
