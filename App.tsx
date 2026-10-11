@@ -8,6 +8,7 @@ import ServiceGallery from './Screens/ServiceGallery';
 import { Exterior, resized } from './data/Image';
 import Studio from './Screens/Studio';
 import ScrollReveal from './components/ScrollReveal';
+import Footer from './components/Footer';
 
 const serviceGalleries = {
 	interior: { title: 'Interior Design', images: resized },
@@ -50,7 +51,8 @@ export default function App() {
 	  	<ScrollReveal>
 			<Studio />
 		</ScrollReveal>
-		{/* <Contact />  */}
+		<Contact /> 
+		<Footer />
 		</>
 			
 	);

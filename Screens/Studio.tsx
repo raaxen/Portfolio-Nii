@@ -4,15 +4,15 @@ import NiiFita from "../assets/images/Portfolio/Velora/Founder_side.png"
 const Studio = () => {
   return (
     <>
-        <section id='studio' className='flex min-h-screen w-full flex-col space-y-6 py-20'>
+        <section id='studio' className='flex min-h-screen space-y-8 w-full flex-col '>
             <div className='space-y-5'>
-                <p className='text-center uppercase'>studio</p>
+                <p className='text-center uppercase lg:mt-8'>studio</p>
                 <h1 className='text-center font-["Oswald"] lg:text-5xl text-4xl '>Architecture, seen differently.</h1>
                 <p className='text-center'>We create architectural imagery that brings ideas to life through light, material and atmosphere.</p>
             </div>    
-            <div className='mx-auto mt-8 m-auto flex w-full flex-col lg:mt-0 lg:min-h-[70vh] lg:w-[70%] lg:flex-row'>
+            <div className='mx-auto m-auto flex w-full flex-col lg:mt-0 lg:min-h-[70vh] lg:w-[70%] lg:flex-row'>
                  <img src={NiiFita} alt="Portrait of the studio founder" className='block aspect-[4/5] w-full object-cover lg:aspect-[2] lg:w-[35%]'/>
-                <div className='bg-[#181A19] lg:w-[65%]'>
+                <div className='bg-[#181A19]  pb-11 lg:w-[65%]'>
                         <div className='flex flex-col items-center lg:mt-[12ch] space-y-5'>
                             <p className='text-[#FDFCFD] text-center uppercase mt-4 '>
                                 Philosophy
