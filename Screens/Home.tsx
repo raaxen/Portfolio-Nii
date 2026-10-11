@@ -19,10 +19,10 @@ export default function Home() {
         }, [])
 	return (
         <>
-<div className="absolute inset-0 bg-gradient-to-t from-black/100 via-black/40 to-transparent" />
-      <section id='home' className='overflow-hidden flex flex-col justify-center h-screen w-screen object-contain bg-cover bg-center' style={{ backgroundImage: `url(${Bg1?.src})` }}>
-        <div className='hero-enter absolute lg:space-y-5 lg:mt-[15ch] lg:w-[50%]'>
-          <p className=' hero-enter text-[1.1rem]  lg:ml-9 ml-5 lg:mt-[55ch] mt-[25ch] font-["Oswald"] text-white' style={{animationDelay:'200ms'}}>
+<div className="absolute h-screen inset-0 bg-gradient-to-t from-black/100 via-black/40 to-transparent" />
+      <section id='home' className='overflow-hidden flex flex-col justify-center h-screen w-screen  object-contain bg-cover bg-center' style={{ backgroundImage: `url(${Bg1?.src})` }}>
+        <div className='hero-enter flex-col absolute lg:space-y-5 lg:mt-[15ch] lg:w-[50%]'>
+          <p className=' hero-enter  text-[1.1rem]  lg:ml-9 ml-5 lg:mt-[55ch] mt-[25ch] font-["Oswald"] text-white' style={{animationDelay:'200ms'}}>
                 .Velora
           </p>
           <h1 className='hero-enter lg:text-7xl text-5xl ml-5 font-["Oswald"] lg:ml-8 text-[#FDFCFD]' style={{animationDelay:'250ms'}}>
