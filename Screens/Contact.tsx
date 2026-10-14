@@ -59,10 +59,10 @@ const Contact = () => {
                         className="h-12 w-full rounded-0 border border-white/10 bg-[#151715] px-4 text-white outline-none transition focus:border-(--portfolio-level) focus:ring-2 focus:rin"
                     >
                         <option value="" disabled>Select a service</option>
-                        <option value="Graphic Designing">Autocad</option>
-                        <option value="Web Design">Interior Design</option>
-                        <option value="Video Editing">Exterior Editing</option>
-                        <option value="Photography">Animated Design</option>
+                        <option value="Plan 2D / 3D">Autocad</option>
+                        <option value="Interior Design">Interior Design</option>
+                        <option value="Exterior Design">Exterior Editing</option>
+                        <option value="Animation">Animated Design</option>
                     </select>
                 </label>
 
