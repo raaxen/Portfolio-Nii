@@ -2,15 +2,15 @@ import { Images } from '../data/Image';
 
 const projectCards = [
 {
-title: 'RESIDENTIAL PROJECT IN PARIS',
+title: 'RESIDENTIAL PROJECT IN ANTANANARIVO ',
 description:
 'Architectural visualization exploring materiality, natural light and contemporary spatial design.',
-image: Images[2]?.src ?? Images[0]?.src,
+image: Images[8]?.src ?? Images[0]?.src,
 },
 {
-title: 'MODERN HOTEL IN PARIS',
+title: 'MODERN HOTEL RESTAURANT AMBOHIDRATRIMO',
 description:
-'A contemporary hospitality space combining texture and atmosphere.',
+'Hotel Restaurant with ',
 image: Images[3]?.src ?? Images[0]?.src,
 },
 {

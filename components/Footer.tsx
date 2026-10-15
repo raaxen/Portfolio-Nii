@@ -6,7 +6,7 @@ const Footer = () => {
 
         <div className="flex flex-col items-center gap-2 md:items-start md:gap-1">
           <span className="text-[#FDFCFD]/50 text-[11px] sm:text-xs">
-            © 2026 VELORA. All rights reserved.
+            © 2026 Ny Fitahiana. All rights reserved.
           </span>
 
           <span className="text-[#FDFCFD]/30 text-[11px] sm:text-xs">

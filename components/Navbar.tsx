@@ -20,14 +20,14 @@ export default function Navbar() {
 
   return (    
       <nav                
-        className= {`top-0 fixed left-1/2 z-[10000] h-[8%] lg:min-h-20 backdrop-blur-sm lg:backdrop-blur-sm -translate-x-1/2 flex items-center tems-center bg-[#FDFCFD] lg:bg-[#FDFCFD]  lg:border-0 justify-around px-4 lg:h-20 lg:px-8 w-screen transition-all duration-500
+        className= {`top-0 fixed left-1/2 z-[10000] h-[8%] lg:min-h-18 backdrop-blur-sm lg:backdrop-blur-sm -translate-x-1/2 flex items-center tems-center bg-[#FDFCFD] lg:bg-[#FDFCFD]  lg:border-0 justify-around px-4 lg:h-18 lg:px-8 w-screen transition-all duration-500
           ${scroll ? 'mt-0' : 'mt-0'}
           `}
     >
         
-        <a className='text-2xl font-ephesis tracking-[0.5ch] lg:text-4xl flex items-center flex-col' href="#home">
-        <h1 className='text-[18px] font-["Oswald"] font-bold uppercase'>
-            Velora
+        <a className='text-2xl font-ephesis tracking-[0.1ch] lg:text-4xl flex items-center flex-col' href="#home">
+        <h1 className='text-[17px] text-center font-["Oswald"] font-bold uppercase'>
+            Ny Fitahiana 
         </h1>
         </a>
 
